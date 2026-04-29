@@ -1,0 +1,20 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "deploy": "serverless deploy"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
