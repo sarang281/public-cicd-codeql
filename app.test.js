@@ -1,6 +1,7 @@
 const request = require('supertest');
 const app = require('./app');
 
+
 // Mock the weather_api module
 jest.mock('./weather_api.js', () => ({
     fetchWeatherData: jest.fn()
